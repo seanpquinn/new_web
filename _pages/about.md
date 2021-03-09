@@ -2,22 +2,30 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Postdoc at UCLA
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>PAB 3-357</p>
+    <p>475 Portola Plaza</p>
+    <p>Los Angeles, CA 90095</p>
 
 news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome! I'm an experimental astro-particle physicist working on the [General Antiparticle Spectrometer](https://gaps1.astro.ucla.edu/gaps/) cosmic ray experiment. I joined the GAPS group at UCLA in 2018 and am involved in designing and building the time of flight system, serving as the main electronics lead.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Research interests
+------
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am broadly interested in the direct detection of slow cosmic rays (a compelling and clean channel for indirect dark matter searches) and indirect detection of the ultra-high energy cosmic rays ($$E>10^{18}$$ eV) as a test of the standard model at the high energy frontier.
+
+More specifically: (1) the design and construction of particle detectors with a focus on data acquisition systems, electronics and associated simulations for cosmic ray physics (2) calibration and comparative studies of surface detectors used by super giant arrays studying UHECRs and (3) the propagation of ultra-high energy cosmic rays through the cosmic environment and deflections by astrophysical magnetic fields.
+
+Other interests
+------
+
+I enjoy traveling and the outdoors. Since moving to California I've tried to take advantage of the many beautiful trails. Here are a few of my hikes: [Gaia](https://www.gaiagps.com/datasummary/folder/97a97b6b-0705-415b-8c8a-60424c83f97c/?layer=GaiaTopoRasterFeet)

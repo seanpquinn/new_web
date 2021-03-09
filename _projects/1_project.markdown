@@ -1,23 +1,37 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: GAPS time of flight
+description: Low mass, low power, fast electronics for the GAPS trigger
 img: /assets/img/12.jpg
 importance: 1
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+I worked with six engineers and a project scientist to help design and qualify/test electronics needed for the trigger and waveform capture.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+For active material we use long (1.8 m), thin (6.35 mm), plastic scintillator with directly coupled SiPMs (silicone cookies).
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The SiPM preamp is a custom design: cathode outputs of six sensors are summed and passed through a transimpedance stage. This output is split before being sent to the final current feedback stage. One higher gain output is used for $$\beta$$ measurements while the other low gain output is used for triggering.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/si_pm_preamp.png' | relative_url }}" alt="" title="SiPM Preamp"/>
+    </div>
+</div>
+<div class="caption">
+    Fourth generation preamp board.
+</div>
+
+To achieve highest possible $$\Delta \beta / \beta$$ the end to end timing resolution should be as high as possible. With the fourth generation boards we are able to exceed the requirement of 500 ps
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/timing_histo.png' | relative_url }}" alt="" title="Timing performance"/>
+    </div>
+</div>
+<div class="caption">
+    End to end timing performance.
+</div>
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
