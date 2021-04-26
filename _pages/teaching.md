@@ -6,6 +6,33 @@ description: Materials for courses you taught. Replace this text with your descr
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+UCLA
+----
 
-Organize your courses by years, topics, or universities, however you like!
+- Physics 180F: Experimental Particle Physics, spring 2020
+
+    Co-instructor for first ever "remote" version of class. Contributed
+    to modified curriculum, created muon detector kits students could
+    assemble along with a guide for data acquisition. Spring 2020.
+
+CWRU
+----
+
+- Intro. Mechanics and EM lab , spring 2017
+
+  - Supervisor
+
+- Modern Physics, fall 2015, 2016
+
+  - Recitation leader
+
+- Intro. Mechanics lab, fall 2011, spring 2012
+
+  - Teaching assistant
+
+RIT
+---
+
+- Intro. Physics I, spring 2010
+
+  - Teaching assistant

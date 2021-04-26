@@ -28,4 +28,4 @@ More specifically: (1) the design and construction of particle detectors with a 
 Other interests
 ------
 
-I enjoy traveling and the outdoors. Since moving to California I've tried to take advantage of the many beautiful trails. Here are a few of my hikes: [Gaia](https://www.gaiagps.com/datasummary/folder/97a97b6b-0705-415b-8c8a-60424c83f97c/?layer=GaiaTopoRasterFeet)
+I enjoy traveling and the outdoors. Since moving to California I've tried to take advantage of the many beautiful trails. Here are a few of my hikes: [Gaia](https://www.gaiagps.com/public/1O8pUEHra21Ec8DW2UxLrMrt)
