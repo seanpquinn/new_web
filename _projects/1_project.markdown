@@ -25,7 +25,7 @@ To achieve highest possible $$\Delta \beta / \beta$$ the end to end timing resol
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/end_end_timing_histo.png' | relative_url }}" alt="" title="Timing performance"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/end_end_timing_histo.PNG' | relative_url }}" alt="" title="Timing performance"/>
     </div>
 </div>
 <div class="caption">
