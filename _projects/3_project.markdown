@@ -26,7 +26,7 @@ Using firmware contributed by another graduate student at CWRU and working with 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
     <div class="bg-image hover-zoom125">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/auger_ta_global_ecel.PNG' | relative_url }}" alt="" title="Electronics overview"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/auger_ta_global_elec.PNG' | relative_url }}" alt="" title="Electronics overview"/>
     </div>
     </div>
 </div>
@@ -38,11 +38,11 @@ Using firmware contributed by another graduate student at CWRU and working with 
 In addition to the hardware efforts, I contributed software to simulate showers observed in the field using the Pierre Auger Offline framework, allowing for the indirect comparison of reconstructions between the two collaborations.
 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/augerta_ex_evt.PNG' | relative_url }}" alt="" title="Simulated shower"/>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/augerta_ex_evt_sig_compare.PNG' | relative_url }}" alt="" title="Simulation vs. data"/>
     </div>
 </div>
