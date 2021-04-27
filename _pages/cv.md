@@ -8,7 +8,7 @@ redirect_from:
 nav: true
 ---
 
-[Download PDF version](/assets/pdf/seanquinn_cv.pdf)
+[Download PDF version](/assets/pdf/squinn_cv.pdf)
 
 # Education
 
