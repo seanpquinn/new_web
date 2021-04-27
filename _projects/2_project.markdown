@@ -9,7 +9,9 @@ While half the battle is getting the analog front end design to meet timing requ
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+    <div class="bg-image hover-zoom">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/ucla_drs4_v2_3_annotated.png' | relative_url }}" alt="" title="prototype photo"/>
+        </div>
     </div>
 </div>
 <div class="caption">
@@ -28,7 +30,9 @@ For peripherals we opted for I2C and perhaps went a little overboard on the numb
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+    <div class="bg-image hover-zoom">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/ex_drs4_waveform.png' | relative_url }}" alt="" title="prototype photo"/>
+    <div class="bg-image hover-zoom">
     </div>
 </div>
 <div class="caption">
