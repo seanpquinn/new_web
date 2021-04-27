@@ -2,76 +2,50 @@
 layout: page
 title: Auger@TA
 description: cross-calibration of surface detector stations
-img: /assets/img/7.jpg
+img: /assets/img/auger_wcd_ta_scint_labeled.PNG
 importance: 3
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+For my PhD I contributed electronics and software for a cross-calibration of complementary surface detectors using high energy cosmic ray air showers. Data from this project can be used to directly translate between, and understand the different signal types (MIP and VEM) used by the world's two largest supergiant cosmic ray air shower arrays, a crucial first step toward merging these data sets for increased statistical power.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This involved deploying several Pierre Auger stations inside the Telescope Array (TA) and developing a custom single board computer (SBC) solution supplied by a solar powered battery. Custom software was used to emulate and interface with a legacy radio protocol over a wire, along with several programs that monitored station data and issued trigger commands in real time based on external time stamp inputs received over actual radio from the Telescope Array. This is a fully automated remote system continuously collecting data in the Utah desert (near Delta).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
+    <div class="bg-image hover-zoom125">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/augerta_setup.PNG' | relative_url }}" alt="" title="Auger@TA site"/>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    1=TA station, 2=WLAN access, 3=TA station (local), 4="Central laser facility" houses SBC, 5=Auger electronics, 6="Auger North" prototype station, 7="Auger south" production station
 </div>
+
+Using firmware contributed by another graduate student at CWRU and working with a EE in our group we also built a UTC time tagging module capable of kHz rates that triggered on low energy air showers. These triggers were used for comparison studies between a production (used in Argentina) and prototype version (for use in northern hemisphere expansion, but not funded) Auger detector.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
+    <div class="bg-image hover-zoom125">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/auger_ta_global_ecel.PNG' | relative_url }}" alt="" title="Electronics overview"/>
+    </div>
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    1=EMI protection and filter, 2=DCDC conv., 3=SBC (RPi with CANbus hat), 4=local trigger time tagging system, 5=SBC box, 6=Ruggedized network switch, 7=GPS timing module, 8=Power distribution, 9=Physics trigger input, 10=TA electronics for trigger distribution
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+
+In addition to the hardware efforts, I contributed software to simulate showers observed in the field using the Pierre Auger Offline framework, allowing for the indirect comparison of reconstructions between the two collaborations.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/augerta_ex_evt.PNG' | relative_url }}" alt="" title="Simulated shower"/>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/augerta_ex_evt_sig_compare.PNG' | relative_url }}" alt="" title="Simulation vs. data"/>
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Top: a reconstructed event using the "Auger Offline" framework using shower parameters provided by TA from the field. Bottom: comparison of calibrated, observed signals and simulated expectation from shower parameters
 </div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
