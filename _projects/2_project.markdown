@@ -32,9 +32,15 @@ For peripherals we opted for I2C and perhaps went a little overboard on the numb
     <div class="col-sm mt-3 mt-md-0">
     <div class="bg-image hover-zoom">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/ex_drs4_waveform.png' | relative_url }}" alt="" title="prototype photo"/>
-    <div class="bg-image hover-zoom">
+    </div>
     </div>
 </div>
 <div class="caption">
     Example muon pulse and synchronized reference sinewave on the 8th channel. From the plot, at what cell was the domino wave when it got triggered?
 </div>
+
+
+
+
+
+
