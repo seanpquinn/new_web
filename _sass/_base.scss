@@ -343,11 +343,18 @@ footer.sticky-bottom {
   }
 }
 
-.hover-zoom:hover {
+.hover-zoom15:hover {
   img {
     transform: scale(1.5);
   }
 }
+
+.hover-zoom125:hover {
+  img {
+    transform: scale(1.25);
+  }
+}
+
 .bg-image img {
   transition: all .2s ease;
 }
