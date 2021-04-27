@@ -8,8 +8,9 @@ redirect_from:
 nav: true
 ---
 
-Education
-=========
+[Download PDF version](/assets/pdf/seanquinn_cv.pdf)
+
+# Education
 
 - Ph.D. Experimental Astroparticle Physics (GPA 3.92/4), Case
     Western Reserve Univ., Jan. 2018
@@ -25,11 +26,9 @@ Education
 - B.S. Physics (GPA 3.64/4), Rochester Institute of
     Technology, 2011.
 
-Employment
-==========
+# Employment
 
-Postdoctoral Scholar, University of California, Los Angeles, 2018-present
--------------------------------------------------------------------------
+## Postdoctoral Scholar, University of California, Los Angeles, 2018-present
 
 - Electronics lead for the development of a relativistic particle time
     of flight system
@@ -82,8 +81,7 @@ Postdoctoral Scholar, University of California, Los Angeles, 2018-present
 - Contributed code for realistic response of time of fight electronics
     for Geant4 simulations
 
-Grad. Student/Research Assistant, Case Western Reserve University, 2012-2017
-----------------------------------------------------------------------------
+## Grad. Student/Research Assistant, Case Western Reserve University, 2012-2017
 
 - Data acquisition system for Pierre Auger surface detector stations
     embedded in the Telescope Array (super giant cosmic ray air shower
@@ -123,8 +121,8 @@ Grad. Student/Research Assistant, Case Western Reserve University, 2012-2017
   - Maintained several Dell PowerEdge blade servers in mini data
         center to help with high compute demand
 
-Dept. of Energy Internship, Los Alamos National Laboratory, Summer 2011
------------------------------------------------------------------------
+## Dept. of Energy Internship, Los Alamos National Laboratory, Summer 2011
+
 
 - Using ALTAIR radar data to characterize micrometeoroid orbits
 
@@ -136,32 +134,27 @@ Dept. of Energy Internship, Los Alamos National Laboratory, Summer 2011
   - Contributed code for beam and atmospheric effects to generate
         debiased flux map
 
-NSF REU, Bucknell University, Summer 2010
------------------------------------------
+## NSF REU, Bucknell University, Summer 2010
 
 - Analysis of X-ray light curves from active galactic nuclei
 
   - Diagnostic tests: power spectral density, log-normal fitting,
         time reversibility, Kolmogorov-Smirnov tests (Python)
 
-Faculty sponsored research, Rochester Institute of Technology, Summer 2009
---------------------------------------------------------------------------
+## Faculty sponsored research, Rochester Institute of Technology, Summer 2009
 
 - Studying AGN nebulae kinematics
 
   - Continuum subtraction and fitting of mixed Gaussians to hydrogen
         spectral emission lines (Igor Pro)
 
-College of Science Summer Research Scholar, Rochester Institute of Technology, Summer 2008
-------------------------------------------------------------------------------------------
+## College of Science Summer Research Scholar, Rochester Institute of Technology, Summer 2008
 
 - Studying AGN nebulae kinematics
 
-Technical Skills
-================
+# Technical Skills
 
-Programming
------------
+## Programming
 
 - Compiled languages: C, C++, make, CMake
 
@@ -181,8 +174,7 @@ Programming
 - Misc/other: HTML & CSS, LAMP stack, nginx, AWS & cloud, sysadmin,
     MediaWiki
 
-Electronics design
-------------------
+## Electronics design
 
 - Schematic capture, layout & routing, BOM and CAM file generation
     (Altium Designer)
@@ -196,8 +188,7 @@ Electronics design
 
 - Digital systems
 
-Fabrication
------------
+## Fabrication
 
 - Mechanical
 
@@ -223,8 +214,7 @@ Fabrication
 
     - Quick connect
 
-Hardware experience
--------------------
+## Hardware experience
 
 - Electronics
 
@@ -263,11 +253,9 @@ Hardware experience
 
   - Web hosting: nginx, mediawiki
 
-Peer Reviewed Publications
-==========================
+# Peer Reviewed Publications
 
-Journal Articles
-----------------
+## Journal Articles
 
 - Phase I of Auger at Telescope Array (Auger\@TA) *in-situ* surface
     detector cross-calibration, Pierre Auger Collaboration, Telescope
@@ -290,8 +278,7 @@ Journal Articles
     Smith, J. Hough, D.M. Alexander. *The Astrophysical Journal*,
     **738**:90-98, 2011.
 
-Proceedings
------------
+## Proceedings
 
 - Recent Progress on the GAPS Time of Flight System, S. Quinn et al.,
     *Proc. of 36th Intl Cosmic Ray Conference, Madison, Wisconsin, USA*
@@ -313,15 +300,13 @@ Proceedings
     Takeishi et al. *Proc. of 34th Intl Cosmic Ray Conference, The
     Hague, NL*, 2015.
 
-Pierre Auger Internal Documents
--------------------------------
+## Pierre Auger Internal Documents
 
 - A Monte-Carlo study of arrival direction uncertainty for the highest
     energy Herald events using the JF12 model, S. Quinn and C. Covault.
     *Pierre Auger internal letter (GAP)*, **2016**, 012, 2016.
 
-Awards
-======
+# Awards
 
 - APS FGSA Travel Award 2016
 
@@ -334,8 +319,7 @@ Awards
 - Julia A. and Charles F. Cala Nathaniel Rochester Society Scholarship
     2009
 
-Contributed Oral Presentations
-==============================
+# Contributed Oral Presentations
 
 - *Kavli Institute for Cosmological Physics*: [Auger\@TA: current
     progress and future
@@ -371,42 +355,7 @@ Contributed Oral Presentations
     Using Spectroscopy to Detect Gas Flows Around Supermassive Black
     Holes (2008).
 
-Teaching
-========
-
-UCLA
-----
-
-- Physics 180F: Experimental Particle Physics, spring 2020
-
-    Co-instructor for first ever "remote" version of class. Contributed
-    to modified curriculum, created muon detector kits students could
-    assemble along with a guide for data acquisition. Spring 2020.
-
-CWRU
-----
-
-- Intro. Mechanics and EM lab , spring 2017
-
-  - Supervisor
-
-- Modern Physics, fall 2015, 2016
-
-  - Recitation leader
-
-- Intro. Mechanics lab, fall 2011, spring 2012
-
-  - Teaching assistant
-
-RIT
----
-
-- Intro. Physics I, spring 2010
-
-  - Teaching assistant
-
-Professional workshops
-======================
+# Professional workshops
 
 - [Codes in Astroparticle Research
     School](https://indico.desy.de/conferenceDisplay.py?confId=10336),
@@ -418,8 +367,7 @@ Professional workshops
 - Cottrell Scholars Collaborative National Teaching Assistant
     Workshop, May 2014, Atlanta, GA
 
-Volunteer/service activities and outreach
-=========================================
+# Volunteer/service activities and outreach
 
 - *[The high energy astrophysics
     display](https://github.com/seanpquinn/auger_display)*: Programmed
@@ -438,8 +386,7 @@ Volunteer/service activities and outreach
     environmental research and database building to improve donor
     support. (September--November 2010)
 
-Professional Affiliations
-=========================
+# Professional Affiliations
 
 - Sigma Pi Sigma, Physics Honor Society, May 2011---
 
