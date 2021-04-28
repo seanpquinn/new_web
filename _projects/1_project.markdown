@@ -6,7 +6,7 @@ img: /assets/img/si_pm_preamp.png
 importance: 1
 ---
 
-I worked with four engineers and a project scientist to design, develop, qualify/test a silicon photomultiplier (SiPM) preamplifier for photon pulses produced by plastic scintillator (each scintillator detector is 1.8 m $$x$$ 6.35 mm). The preamp provides a gain of $$\approx 4 \times 10^6$$ and enough current drive for the signal to be sampled downstream.
+I worked with four engineers and a project scientist to design, develop, qualify/test a silicon photomultiplier (SiPM) preamplifier for photon pulses produced by plastic scintillator (each scintillator detector is 1.8 m $$\times$$ 6.35 mm). The preamp provides a gain of $$\approx 4 \times 10^6$$ and enough current drive for the signal to be sampled downstream.
 
 The SiPM preamp is a custom design: cathode outputs of six sensors are summed and passed through a transimpedance stage. This output is split before being sent to the final current feedback stage. One higher gain output is used for $$\beta$$ measurements while the other low gain output is used for triggering.
 
