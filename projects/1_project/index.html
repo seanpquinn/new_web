@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Sean Quinn</title>
+<title>Sean Quinn | GAPS time of flight SiPM preamp</title>
 <meta name="description" content="Personal website of Sean Quinn.
 ">
 
@@ -23,7 +23,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/1_project/">
 
 <!-- Open Graph -->
 
@@ -61,7 +61,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -128,18 +128,37 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>passing thoughts</h1>
-    <h2>general discussion</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">GAPS time of flight SiPM preamp</h1>
+    <p class="post-description">Low mass, low power, fast electronics for the GAPS trigger</p>
+  </header>
 
+  <article>
+    <p>I worked with four engineers and a project scientist to design, develop, qualify/test a silicon photomultiplier (SiPM) preamplifier for photon pulses produced by plastic scintillator (each scintillator detector is 1.8 m <script type="math/tex">\times</script> 6.35 mm). The preamp provides a gain of <script type="math/tex">\approx 4 \times 10^6</script> and enough current drive for the signal to be sampled downstream.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<p>The SiPM preamp is a custom design: cathode outputs of six sensors are summed and passed through a transimpedance stage. This output is split before being sent to the final current feedback stage. One higher gain output is used for <script type="math/tex">\beta</script> measurements while the other low gain output is used for triggering.</p>
 
-  
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/si_pm_preamp.png" alt="" title="SiPM Preamp" />
+    </div>
+</div>
+<div class="caption">
+    Fourth generation preamp board.
+</div>
 
+<p>To achieve highest possible <script type="math/tex">\Delta \beta / \beta</script> the end-to-end timing resolution should be as high as possible. With the fourth generation boards we are able to exceed the requirement of 500 ps.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/end_end_timing_histo.PNG" alt="" title="Timing performance" />
+    </div>
+</div>
+<div class="caption">
+    End-to-end timing performance.
+</div>
+
+  </article>
 
 </div>
 
